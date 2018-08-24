@@ -1,0 +1,133 @@
+body {
+
+}
+
+.flexcolumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+div .ptext {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+/* header */
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+header nav a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 20px 10px;
+  flex-grow: 1;
+}
+
+.logo {
+  display: flex;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.wlogo {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+/* first column */
+
+.column {
+  display: flex;
+}
+
+div.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.pheader {
+  border: 1px solid black;
+}
+.x {
+  border: 1px solid black;
+}
+
+div .phishpic {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+div .camera {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+div .falltrees {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+
+/* second column */
+
+.secondcolumn {
+  flex-direction: column;
+}
+
+div .medium {
+  width: 300px;
+}
+
+div .evilcat {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+/* third column */
+
+div.small {
+  width: 240px;
+}
+
+.thirdcolumn {
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+img .x {
+  width: 240px;
+}
